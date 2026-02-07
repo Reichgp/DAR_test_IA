@@ -23,8 +23,10 @@ Este repositorio está pensado para:
 La aplicación funciona como una **web estática** mediante GitHub Pages (HTML + JavaScript + JSON), sin necesidad de backend.
 
 ## Aviso
-Este material es **exclusivamente educativo** y no garantiza coincidencia exacta con exámenes oficiales. Se recomienda usarlo como **complemento de estudio**, no como única fuente.
-Las respuestas incluidas en este banco de preguntas **no han sido validadas de forma oficial** y pueden contener errores puntuales. Se recomienda **contrastar siempre con el temario y los materiales docentes oficiales**.
+Este material es **exclusivamente educativo** y no garantiza coincidencia exacta con exámenes oficiales. 
+Se recomienda usarlo como **complemento de estudio**, no como única fuente.
+Las respuestas incluidas en este banco de preguntas **no han sido validadas de forma oficial** y pueden contener errores puntuales. 
+Se recomienda **contrastar siempre con el temario y los materiales docentes oficiales**.
 
 # DAR Test – Banco de preguntas tipo test
 Banco de preguntas tipo test de la asignatura DAR (Desarrollo de Aplicaciones en Red), preparado para su uso en GitHub Pages como herramienta de práctica y autoevaluación.
@@ -41,9 +43,6 @@ Banco de preguntas tipo test de la asignatura DAR (Desarrollo de Aplicaciones en
 ## Uso
 Repositorio orientado a la práctica individual, repaso de conceptos clave y simulación de tests de examen.  
 La aplicación funciona como una web estática (HTML + JavaScript + JSON), sin backend.
----
-Proyecto personal de estudio.
-
 
 ---
 Proyecto personal de estudio.
