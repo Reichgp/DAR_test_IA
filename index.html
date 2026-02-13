@@ -5,21 +5,102 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>DAR Test IA</title>
   <style>
-    body { font-family: system-ui, Arial, sans-serif; margin: 24px; max-width: 900px; }
-    .topbar { display:flex; gap:12px; flex-wrap:wrap; align-items:center; justify-content:space-between; }
-    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 16px 0; }
-    .muted { color: #666; }
-    .opt { display:block; padding: 10px 12px; border: 1px solid #ddd; border-radius: 10px; margin: 10px 0; cursor: pointer; }
-    .opt:hover { background: #f7f7f7; }
-    button { padding: 10px 14px; border-radius: 10px; border: 1px solid #ccc; background: #fff; cursor: pointer; }
-    button:disabled { opacity: .5; cursor: not-allowed; }
-    .row { display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
-    .ok { color: #0a7; font-weight: 700; }
-    .bad { color: #c00; font-weight: 700; }
-    .explain { margin-top: 10px; padding: 10px 12px; border-left: 4px solid #ddd; background: #fafafa; border-radius: 8px; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    .small { font-size: 0.95rem; }
-  </style>
+  body {
+    font-family: system-ui, Arial, sans-serif;
+    margin: 24px;
+    max-width: 900px;
+    background: #121212;     /* fondo oscuro suave */
+    color: #eaeaea;          /* texto claro */
+  }
+
+  .topbar {
+    display:flex;
+    gap:12px;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+  }
+
+  .card {
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    padding: 16px;
+    margin: 16px 0;
+    background: #1e1e1e;
+  }
+
+  .muted { 
+    color: #aaaaaa; 
+  }
+
+  .opt {
+    display:block;
+    padding: 10px 12px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    background: #242424;
+    color: #f0f0f0;
+  }
+
+  .opt:hover {
+    background: #2f2f2f;
+  }
+
+  button {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: 1px solid #444;
+    background: #2a2a2a;
+    color: #eee;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #363636;
+  }
+
+  button:disabled {
+    opacity: .45;
+    cursor: not-allowed;
+  }
+
+  .row {
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    align-items:center;
+  }
+
+  .ok { 
+    color: #4caf50;
+    font-weight: 700;
+  }
+
+  .bad {
+    color: #ff6b6b;
+    font-weight: 700;
+  }
+
+  .explain {
+    margin-top: 10px;
+    padding: 10px 12px;
+    border-left: 4px solid #555;
+    background: #252525;
+    border-radius: 8px;
+    color: #eaeaea;
+  }
+
+  .mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+
+  .small {
+    font-size: 0.95rem;
+  }
+</style>
+
 </head>
 <body>
 
