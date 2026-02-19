@@ -87,6 +87,19 @@
       background: var(--hover);
       border-color: #3a4250;
     }
+    /* Resalta la opción seleccionada */
+.opt:has(input[type="radio"]:checked){
+  border-color: var(--accent);
+  background: rgba(122, 162, 255, 0.14);
+  box-shadow: 0 0 0 2px rgba(122, 162, 255, 0.25);
+}
+
+/* Opcional: que el circulito se vea más en móvil */
+.opt input[type="radio"]{
+  transform: scale(1.2);
+  margin-right: 10px;
+}
+    
     .opt:active { transform: translateY(1px); }
 
     input[type="radio"]{
